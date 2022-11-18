@@ -6,7 +6,7 @@ matplotlib==3.6.2
 
 numpy==1.23.4 
 
-tensorflow==2.10.0
+tensorflow==2.10.0(只作为导入mnist数据集(使用)
 ### 概述
 只通过Python和numpy库，从数学推Lenet5中的全连接层，卷积层，激活函数，优化函数.搭建Lenet5卷积神经网络，在手写字符识别上应用.  
 在lecun论文的基础上，使用了softmax和cross-entropy损失函数,使用BN进行数据标准化，Adam优化器进行更快的梯度迭代方向，
